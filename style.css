@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,700');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+	font-size: 100%;
+}
+.main{
+    background-image: url(./course.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    min-height: 100vh;
+    
+}
+header{
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     height: 20vh;
+     text-transform: uppercase;
+     padding: 2em 0;
+}
+header h1{
+    font-size: 35px;
+    text-transform: uppercase;
+    color: #fff;
+    word-spacing: 11px;
+    letter-spacing: 2px;
+    text-align: center;
+  
+    margin: 0!important;
+}
+.border{
+    border: 1px solid black;
+    height: auto;
+   width: 30%;
+   margin: 0 auto;
+   padding: 50px;
+   background: rgba(0, 0, 0, 0.45)
+}
+.border h2{
+    color: #31c4fc;
+    text-align: center;
+    margin: 0 0 30px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 26px;
+    letter-spacing: 1px;
+}
+.border input{
+    width: 95.4%;
+    padding: 10px 10px 10px 10px;
+    font-weight: normal;
+    background: none;
+    border: none;
+	background: rgba(235, 235, 235, 0.15);
+    color: #ffffff !important;
+    outline: none;
+    font-size: 14px;
+    margin: 6px 0 17px 0px;
+    /* transition: 0.5s all;
+    -webkit-transition: 0.5s all;
+    -o-transition: 0.5s all;
+    -ms-transition: 0.5s all;
+    -moz-transition: 0.5s all; */
+    font-family: 'Roboto', sans-serif;
+}
+.border button{
+    width: 100%;
+    padding: 10px 1px 10px 10px;
+    font-weight: normal;
+    background: none;
+    border: none;
+	background: #31c4fc;
+    color: #ffffff !important;
+    outline: none;
+    font-size: 20px;
+    margin: 6px 0 17px 0px;
+    /* transition: 0.5s all; */
+    margin-top: 10px;
+    cursor: pointer;
+    /* -webkit-transition: 0.5s all;
+    -o-transition: 0.5s all;
+    -ms-transition: 0.5s all;
+    -moz-transition: 0.5s all; */
+    font-family: 'Roboto', sans-serif;
+}
+.border input::placeholder{
+    color: #fff;
+}
